@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 768px;
+  }
+  
+  .clients__th_id,
+  .client__th_id {
+    padding-left: 5px;
+    width: 100px;
+  }
+
+  .clients__th_fullname {
+    width: 180px;
+  }
+
+  .clients__th_created,
+  .clients__th_updated {
+    width: 90px;
+    background-position-x: calc(100% - 15px);
+  }
+
+  .clients__th_updated {
+    background-position-x: calc(100% - 5px);
+  }
+  
+  .client__th_created-date,
+  .client__th_updated-date,
+  .client__th_created-time,
+  .client__th_updated-time
+  .client__update-button,
+  .client__delete-button {
+    display: block;
+  }
+  
+  .client__th_created-date,
+  .client__th_updated-date,
+  .client__update-button {
+    margin-right: 0;
+  }
+
+  .clients__th_actions {
+    width: 85px;
+  }
+
+  .client__contacts-list {
+    gap: 3px;
+  }
+
+  .client__copy-link {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40px;
+  }
+
+  .clients__th_contacts {
+    width: 120px;
+  }
+
+  .search-results-list {
+    left: 113.5px;
+  }
+
+  @media (max-width: 320px) {
+    .header {
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+    
+    .header__container {
+      justify-content: center;
+    }
+
+    .header__input {
+      display: none;
+    }
+
+    .header__logo {
+      height: 24px;
+      width: 24px;
+    }
+
+    .clients__container {
+      padding-top: 30px;
+    }
+
+    .clients__header {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+
+  }
+  
+
+}

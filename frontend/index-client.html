@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" href="img/favicon-skb.svg" type="image/svg+xml">
+  <script defer src="main.js"></script>
+  <title>Карточка клиента</title>
+</head>
+<body>
+  <section class="client-section client-section_update animate__animated animate__flipInX" id="client-section_update">
+    <h2 class="hidden">
+      Карточка клиента
+    </h2>
+    <form class="client-form client-form_update flex" id="client-form_update">
+      <span class="client-form__header_update">Карточка клиента <span class="client-form__id_update"
+          id="client-form__id_update"></span></span>
+      <div class="client-form__inputs-group client-form__inputs-group_update flex">
+        <div class="client-form__input-wrapper">
+          <label class="client-form__label_update">
+            Фамилия<span class="asterisk-icon">*</span>
+            <input class="client-form__input" id="client-form__input_update_surname" type="text">
+          </label>
+        </div>
+        <div class="client-form__input-wrapper">
+          <label class="client-form__label_update">
+            Имя<span class="asterisk-icon">*</span>
+            <input class="client-form__input" id="client-form__input_update_name" type="text">
+          </label>
+        </div>
+        <div class="client-form__input-wrapper">
+          <label class="client-form__label_update">
+            Отчество<span class="asterisk-icon">*</span>
+            <input class="client-form__input" id="client-form__input_update_last-name" type="text">
+          </label>
+        </div>
+      </div>
+      <div class="client-form__buttons-group flex">
+        <div class="client-form__add-contact-group flex" id="client-form__add-contact-group_update">
+          <button class="client-form__add-contact-button" id="client-form__add-contact-button_update">
+            Добавить контакт
+          </button>
+        </div>
+        <button class="violet-button client-form__save-button" id="client-form__save-button_update">
+          Сохранить
+        </button>
+        <button class="client-form__cancel-button" id="client-form__delete-button_update" type="button">
+          Удалить клиента
+        </button>
+      </div>
+      <button class="client-form__close-button" id="client-form__close-button_update" type="reset">
+
+      </button>
+    </form>
+  </section>
+</body>
+</html>
